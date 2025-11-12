@@ -1,0 +1,158 @@
+body {
+  background-color: #f3f4f9;
+  font-family: sans-serif;
+}
+.app-container {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+.input-forms {
+  width: 300px;
+}
+.resume-preview {
+  width: 780px;
+  height: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form {
+  padding: 10px;
+}
+input {
+  padding: 8px 30px 8px 8px;
+  margin: 10px 10px 10px 0px;
+}
+label {
+  margin-bottom: 10px;
+}
+.sidebar-head-section {
+  display: flex;
+}
+.main-container {
+  padding: 30px;
+}
+.username {
+  display: flex;
+}
+.personal-details {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.professional-heading {
+  padding: 5px;
+  background-color: rgb(255, 145, 0);
+  font-weight: bold;
+  margin: 8px 0px 0px 0px;
+}
+.work-heading {
+  padding: 5px;
+  background-color: rgb(251, 255, 31);
+  font-weight: bold;
+  margin: 8px 0px 0px 0px;
+}
+.skills-heading {
+  padding: 5px;
+  background-color: rgb(243, 180, 64);
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.education-heading {
+  padding: 5px;
+  background-color: greenyellow;
+  font-weight: bold;
+  margin: 8px 0px 0px 0px;
+}
+.heading-info {
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  width: 310px;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+.input-forms {
+  padding: 0px;
+}
+.tropDown-btn {
+  padding-top: 25px;
+  padding-right: 4px;
+}
+.headName {
+  padding-left: 7px;
+}
+form {
+  padding-bottom: 20px;
+}
+.submitBtn {
+  padding: 6px 10px;
+  color: white;
+  background-color: orangered;
+  border-radius: 5px;
+  border: 3px solid rgb(138, 39, 3);
+}
+.workName {
+  margin: 0px;
+  padding: 0px 0px 10px;
+}
+.workList {
+  margin-top: 0px;
+}
+textarea {
+  width: 280px;
+  padding: 10px;
+  height: 150px;
+  border-radius: 8px;
+  border: 3px solid darkblue;
+  margin: 5px;
+}
+.user-name {
+  padding-top: 10px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.summary-para {
+  padding: 0px 15px 0px 15px;
+}
+.company-info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.skillsList {
+  font-size: 1rem;
+  line-height: 18px;
+}
+.heading-button {
+  display: flex;
+  justify-content: space-between;
+}
+.title-name {
+  display: flex;
+  padding-top: 10px;
+}
+.skillsForm {
+  padding: 0px;
+}
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+  .PrintableDiv,
+  .PrintableDiv * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    /* color-adjust: exact !important; */
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact; /* For broader compatibility */
+  }
+}
